@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">YCOIN</string>
+    <string name="todo">TODO</string>
+    <string name="textIntroducao">Em um mundo cada vez mais complexo, tomar decisões financeiras inteligentes pode ser um desafio. É por isso que estamos muito felizes em apresentar o Ycoin, o seu guia completo para educação financeira.</string>
+    <string name="linkScreen2">Saiba mais!</string>
+    <string name="title">YCOIN</string>
+    <string name="title_activity_screen2">screen2</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+</resources>
