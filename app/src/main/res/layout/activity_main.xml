@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
+
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/main"
+    android:id="@+id/screen_start"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#090909"
@@ -13,8 +14,8 @@
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="382dp"
-        android:layout_height="310dp"
+        android:layout_width="331dp"
+        android:layout_height="197dp"
         android:contentDescription="@string/todo"
         app:layout_constraintBottom_toTopOf="@+id/introduction"
         app:layout_constraintEnd_toEndOf="parent"
@@ -57,8 +58,9 @@
         android:layout_marginBottom="132dp"
         android:background="@drawable/backgroud_button"
         android:fontFamily="@font/inter_semibold"
+        android:onClick="openHomeActivity"
         android:rotation="0"
-        android:text="@string/linkScreen2"
+        android:text="@string/saiba_mais"
         android:textAllCaps="false"
         android:textColor="#000000"
         android:textSize="15sp"
@@ -67,13 +69,13 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/introduction"
-        tools:ignore="TextSizeCheck" />
+        tools:ignore="HardcodedText,TextSizeCheck" />
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="-70dp"
+        android:layout_marginTop="20dp"
         android:fontFamily="@font/inter_semibold"
         android:text="@string/title"
         android:textColor="#FFFFFF"

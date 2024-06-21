@@ -2,21 +2,76 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fragment_home"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/bege"
     tools:context=".ui.home.HomeFragment">
 
-    <TextView
-        android:id="@+id/text_home"
-        android:layout_width="match_parent"
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="8dp"
-        android:textAlignment="center"
-        android:textSize="20sp"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="26dp"
+        android:backgroundTint="#d9d9d9"
+        android:contentDescription="@string/Button_Receita"
+        app:layout_constraintEnd_toStartOf="@+id/imageButton"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2"
+        app:srcCompat="@drawable/receita"
+        tools:ignore="MissingConstraints,ImageContrastCheck" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="43dp"
+        android:layout_height="82dp"
+        android:contentDescription="@string/logo"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/mnb_site_de_educacao_financeira_1_fotor_bg_remover_2024052317326_1"
+        tools:ignore="HardcodedText" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:backgroundTint="#d9d9d9"
+        android:contentDescription="@string/Button_Despesa"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageButton2"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2"
+        app:srcCompat="@drawable/group_1"
+        tools:ignore="ImageContrastCheck" />
+
+    <ImageButton
+        android:id="@+id/imageButton4"
+        android:layout_width="180dp"
+        android:layout_height="229dp"
+        android:layout_marginTop="-50dp"
+        android:backgroundTint="#d9d9d9"
+        android:contentDescription="@string/Button_Planejamento"
+        android:src="@drawable/planejamento"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageButton3"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton"
+        tools:ignore="SpeakableTextPresentCheck,ImageContrastCheck" />
+
+    <ImageButton
+        android:id="@+id/imageButton3"
+        android:layout_width="180dp"
+        android:layout_height="239dp"
+        android:layout_marginTop="-50dp"
+        android:layout_marginEnd="4dp"
+        android:backgroundTint="#d9d9d9"
+        android:contentDescription="@string/Button_Conciencia"
+        android:src="@drawable/consciencia"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/imageButton4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton2"
+        tools:ignore="SpeakableTextPresentCheck,ImageContrastCheck" />
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,7 @@
+<resources>
+    <style name="AppTheme.HomeActivity" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here -->
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+</resources>

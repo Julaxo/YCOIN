@@ -6,16 +6,31 @@
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@drawable/mnb_site_de_educacao_financeira_1_fotor_bg_remover_2024052317326_1"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.YCOIN"
         tools:targetApi="31">
         <activity
-            android:name=".screen2"
+            android:name=".Despesa"
+            android:exported="false" />
+        <activity
+            android:name=".receita"
+            android:exported="false" />
+        <activity
+            android:name=".Conciencia"
+            android:exported="false" />
+        <activity
+            android:name=".Planejamento"
+            android:exported="false" />
+        <activity
+            android:name=".ui.menu.CreditosActivity"
+            android:exported="false" />
+        <activity
+            android:name=".HomeActivity"
             android:exported="false"
-            android:label="@string/title_activity_screen2" />
+            android:label="@string/title_activity_home"
+            android:theme="@style/AppTheme.HomeActivity" />
         <activity
             android:name=".MainActivity"
             android:exported="true">
